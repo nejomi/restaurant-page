@@ -5,11 +5,38 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> 
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Caladea&family=Playfair+Display&family=Roboto+Mono&display=swap" rel="stylesheet">
         <script src="main.js" async defer></script>
     </head>
     <body>
-        <div id="content"></div>
-        <script src="" async defer></script>
+        <div class="container">
+            <header class="website-header py-3">
+                <div class="row flex-nowrap justify-content-between align-items-center">
+                    <div class="col-4 pt-1">
+                    <a class="text-muted" href="#">Find a store</a>
+                    </div>
+                    <div class="col-4 text-center">
+                    <a class="header-text text-dark" href="#">Grade A Coffee</a>
+                    </div>
+                    <div class="col-4 d-flex justify-content-end align-items-center">
+                    <a class="btn btn-sm btn-outline-secondary" href="#">Rewards</a>
+                    </div>
+                </div>
+            </header>
+            <div class="nav-scroller py-1 mb-2">
+                <nav class="nav d-flex justify-content-around">
+                  <a class="p-2 nav-links text-dark" href="#" id="home">Home</a>
+                  <a class="p-2 nav-links text-dark" href="#" id="menu">Menu</a>
+                  <a class="p-2 nav-links text-dark" href="#" id="contact">Contact</a>
+                </nav>
+            </div>
+            <main></main>
+        </div>
+        <footer class="footer py-3">
+              <span class="text-muted">Grade A Coffee All Rights Reserved</span>
+              <span class="text-muted"> - promotions@gradeacofee.com.ph</span>
+        </footer>
     </body>
 </html>
